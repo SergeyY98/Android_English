@@ -1,0 +1,41 @@
+<resources>
+    <string name="app_name">English-learning</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="title">Learning English</string>
+    <string name="start_game">Start game</string>
+    <string name="english_learning">English learning</string>
+    <string name="settings">settings</string>
+    <string name="show_statistics">Show statistics</string>
+    <string name="exit">Exit</string>
+    <string name="choose_theme">Select theme</string>
+    <string name="theme1">Sport</string>
+    <string name="theme2">Furniture</string>
+    <string name="theme3">Weapons</string>
+    <string name="theme4">Cinema</string>
+    <string name="theme5">Food</string>
+    <string name="theme6">Technique</string>
+    <string name="theme7">Keyboard layout</string>
+    <string name="theme8">Animals</string>
+    <string name="theme9">Kitchen</string>
+    <string name="theme10">Others</string>
+    <string name="submit_button">Submit</string>
+    <string name="english_learning_question_trivia_question">English Learning (%1$d/%2$d)</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="english_russian">English</string>
+    <string name="russian_english">Russian</string>
+    <string name="select_mode">Select mode</string>
+    <string name="next_match">Next Match</string>
+    <string name="game_finished">Game finished</string>
+    <string name="current_progress">Current progress</string>
+
+    <!-- Output to TextView styled with a little HTML -->
+    <string name="title_stats"><![CDATA[<h3>HERE IS YOUR CURRENT RESULTS</h3>]]></string>
+    <string name="mode"><![CDATA[<b>Mode:</b>]]></string>
+    <string name="theme"><![CDATA[<b>Theme:</b>]]></string>
+    <string name="results"><![CDATA[<b>Results:</b>]]></string>
+    <string name="percentage"><![CDATA[<b>Percentage:</b>]]></string>
+    <string name="your_results_numcorrect_num">Your results: @{numCorrect}/@{num}</string>
+</resources>

@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".english_learning.selection.SelectionFragment">
+
+    <!-- Data to make available to the XML via data binding. In this case,
+         the whole ViewModel, so that we can access the LiveData,
+         click handlers, and state variables. -->
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fillViewport="true">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:id="@+id/framelayout"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/select_mode"
+                android:textSize="24sp"
+                android:textStyle="bold"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.52"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.038" />
+
+            <RadioGroup
+                android:id="@+id/modeRadioGroup"
+                android:layout_width="195dp"
+                android:layout_height="65dp"
+                android:layout_marginStart="130dp"
+                android:layout_marginTop="420dp"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent">
+
+                <RadioButton
+                    android:id="@+id/radioButton_mode1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/english_russian" />
+
+                <RadioButton
+                    android:id="@+id/radioButton_mode2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/russian_english" />
+            </RadioGroup>
+
+            <TextView
+                android:id="@+id/textView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="140dp"
+                android:layout_marginTop="380dp"
+                android:text="@string/select_mode"
+                android:textSize="24sp"
+                android:textStyle="bold"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <RadioGroup
+                android:id="@+id/themeRadioGroup"
+                android:layout_width="193dp"
+                android:layout_height="314dp"
+                android:layout_marginStart="130dp"
+                android:layout_marginTop="60dp"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent">
+
+                <RadioButton
+                    android:id="@+id/radioButton_theme1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/theme1" />
+
+                <RadioButton
+                    android:id="@+id/radioButton_theme2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/theme2" />
+
+                <RadioButton
+                    android:id="@+id/radioButton_theme3"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/theme3" />
+
+                <RadioButton
+                    android:id="@+id/radioButton_theme4"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/theme4" />
+
+                <RadioButton
+                    android:id="@+id/radioButton_theme5"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/theme5" />
+
+                <RadioButton
+                    android:id="@+id/radioButton_theme6"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/theme6" />
+
+                <RadioButton
+                    android:id="@+id/radioButton_theme7"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/theme7" />
+
+                <RadioButton
+                    android:id="@+id/radioButton_theme8"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/theme8" />
+
+                <RadioButton
+                    android:id="@+id/radioButton_theme9"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/theme9" />
+
+                <RadioButton
+                    android:id="@+id/radioButton_theme10"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/theme10" />
+            </RadioGroup>
+
+            <Button
+                android:id="@+id/button"
+                style="@style/Buttons"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="168dp"
+                android:layout_marginTop="484dp"
+                android:text="@string/submit_button"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </ScrollView>
+</layout>
