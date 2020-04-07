@@ -37,5 +37,4 @@
     <string name="theme"><![CDATA[<b>Theme:</b>]]></string>
     <string name="results"><![CDATA[<b>Results:</b>]]></string>
     <string name="percentage"><![CDATA[<b>Percentage:</b>]]></string>
-    <string name="your_results_numcorrect_num">Your results: @{numCorrect}/@{num}</string>
 </resources>

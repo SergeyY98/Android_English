@@ -39,7 +39,7 @@ class StatisticsFragment : Fragment() {
 
         viewModel.navigateStatsString.observe(viewLifecycleOwner, Observer { navigateStatsString ->
             if (navigateStatsString) {
-                binding.textView.text = viewModel.statsString
+                binding.textview.text = viewModel.statsString
             }
         })
 

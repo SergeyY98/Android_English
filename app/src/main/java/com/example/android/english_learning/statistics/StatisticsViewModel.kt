@@ -50,10 +50,7 @@ class StatisticsViewModel(
                         num = dao.getNumber(mode, theme),
                         rightNum = dao.getRightNumber(mode, theme),
                         percentage = Math.round(
-                            (dao.getRightNumber(mode, theme) / dao.getNumber(
-                                mode,
-                                theme
-                            )).toDouble() * 100
+                            (dao.getRightNumber(mode, theme)).toDouble() / dao.getNumber(mode, theme) * 100
                         )
                     )
                 )

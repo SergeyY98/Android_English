@@ -6,13 +6,14 @@
     <data>
 
     </data>
+
     <androidx.constraintlayout.widget.ConstraintLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent">
 
         <ScrollView
-            android:layout_width="match_parent"
-            android:layout_height="0dp"
+            android:layout_width="365dp"
+            android:layout_height="468dp"
             app:layout_constraintBottom_toTopOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintRight_toRightOf="parent"
@@ -22,17 +23,17 @@
             <!-- In the TextView, we can access the nightsString LiveData,
                  which keeps it displayed and updated in the TextView
                  whenever it changes. -->
+
+            <TextView
+                android:id="@+id/textview"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/margin"
+                android:layout_marginTop="@dimen/margin"
+                android:layout_marginEnd="@dimen/margin"
+                android:text="@string/current_progress"
+                android:textAlignment="textStart" />
         </ScrollView>
 
-        <TextView
-            android:id="@+id/textView"
-            android:layout_width="285dp"
-            android:layout_height="522dp"
-            android:text="TextView"
-            app:layout_constraintBottom_toBottomOf="parent"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toTopOf="parent"
-            app:layout_constraintVertical_bias="0.612" />
     </androidx.constraintlayout.widget.ConstraintLayout>
 </layout>
